@@ -1,16 +1,17 @@
-Adding new Webspace
-===================
+Adding a new Webspace
+=====================
 
 To create a new webspace you have to create a new file within the
 `config/webspaces` directory. The content of the file should be quite
-similar to the `example.xml`_ file in this folder.
+similar to the `example.xml`_ file in this folder. For more information on
+the options in this file refer to: :doc:`../book/webspaces.rst`.
 
 .. note::
 
     The key of the webspace has to be the same as the filename without the xml
     extension.
 
-To activate the webspace within sulu you have to clear the cache with the command:
+To activate the webspace within Sulu you have to clear the cache with the command:
 
 .. code-block:: bash
 
